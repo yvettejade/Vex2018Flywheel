@@ -114,7 +114,7 @@ void autonomous()
   pros::delay(400);
 
   //turn to face flags
-  encoderLeftTurn();
+  encoderRightTurn();
   pros::delay(500);
 
   //shoot top flag
@@ -139,7 +139,7 @@ void autonomous()
   pros::delay(400);
 
   //turn to face cap
-  encoderRightTurn();
+  encoderLeftTurn();
   pros::delay(500);
 
   //flip cap
@@ -149,7 +149,7 @@ void autonomous()
   flyIntake_auton.move_voltage(0);
 
   //turn to face platform
-  encoderRightTurn();
+  encoderLeftTurn();
   pros::delay(500);
 
   //climb platform
